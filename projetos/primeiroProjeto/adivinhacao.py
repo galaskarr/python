@@ -4,14 +4,17 @@ print("********************************")
 
 numero_secreto = 42
 
-chute = input("Digite seu palpite ")
+chute_str = input("Digite seu palpite ")
 
-print("Você digitou: ", chute)
+print("Você digitou: ", chute_str)
 
+chute = int(chute_str)
 if(chute == numero_secreto):
     print("Você acertou!")
 else:
     print("Errrrrôôôô!!")
+
+print("Fim do jogo")
 
 
 
